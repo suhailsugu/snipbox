@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+*.so
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# Django stuff
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Migrations (optional – remove if you want to track them)
+*/migrations/__pycache__/
+*/migrations/*.py
+
+# Environment / secrets
+*.env
+.env
+.env.*
+
+# VSCode / PyCharm / IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Byte-compiled / logs
+*.log
+*.pot
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+# Mac / OS junk
+.DS_Store
+Thumbs.db
+
+# Node (if frontend exists)
+node_modules/
+build/
+dist/
+
+# pytest
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
