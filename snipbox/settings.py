@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 ]
 LOCAL_APPS = [
+    "apps.accounts",
 ]
 
 THIRD_PARTY_APPS = [
